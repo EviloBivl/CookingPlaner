@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding Add Meal View Controller-->
+        <scene sceneID="kXw-LU-3Vc">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjL-yX-xfY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="OnboardingAddMealViewController" id="oqo-Bx-ERD" customClass="OnboardingAddMealViewController" customModule="CookingPlaner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Vz-XD-b2y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dft-mX-4iU">
+                                <rect key="frame" x="16" y="76" width="382" height="235.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Um deinen Essensplan zu erstellen brauchen wir von dir noch deine Lieblingsgerichte" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIa-s3-Uk5">
+                                        <rect key="frame" x="24" y="24" width="334" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eQd-hz-HRW">
+                                        <rect key="frame" x="24" y="151.5" width="334" height="68"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u79-Wa-4eR" customClass="InvertedButton" customModule="CookingPlaner" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="334" height="30"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <state key="normal" title="Hinzufügen"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOR-z1-8g2" customClass="FilledButton" customModule="CookingPlaner" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="38" width="334" height="30"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47418004270000003" blue="0.91394466159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Fertig">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Trage hier deine Lieblingsspeisen ein" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V0n-EI-Xst">
+                                        <rect key="frame" x="32" y="101" width="318" height="18.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="V0n-EI-Xst" secondAttribute="trailing" constant="32" id="0bY-eP-dOq"/>
+                                    <constraint firstAttribute="trailing" secondItem="DIa-s3-Uk5" secondAttribute="trailing" constant="24" id="C2D-Vz-V7Q"/>
+                                    <constraint firstItem="V0n-EI-Xst" firstAttribute="leading" secondItem="Dft-mX-4iU" secondAttribute="leading" constant="32" id="DsF-Z5-iL3"/>
+                                    <constraint firstItem="eQd-hz-HRW" firstAttribute="leading" secondItem="Dft-mX-4iU" secondAttribute="leading" constant="24" id="QDG-dg-ID2"/>
+                                    <constraint firstItem="DIa-s3-Uk5" firstAttribute="top" secondItem="Dft-mX-4iU" secondAttribute="top" constant="24" id="QLy-qW-Xus"/>
+                                    <constraint firstItem="DIa-s3-Uk5" firstAttribute="leading" secondItem="Dft-mX-4iU" secondAttribute="leading" constant="24" id="R1g-3g-eud"/>
+                                    <constraint firstAttribute="bottom" secondItem="eQd-hz-HRW" secondAttribute="bottom" constant="16" id="TNQ-wi-CuR"/>
+                                    <constraint firstItem="eQd-hz-HRW" firstAttribute="top" secondItem="V0n-EI-Xst" secondAttribute="bottom" constant="32" id="Tip-mD-dgG"/>
+                                    <constraint firstAttribute="trailing" secondItem="eQd-hz-HRW" secondAttribute="trailing" constant="24" id="Umd-oh-1nG"/>
+                                    <constraint firstItem="V0n-EI-Xst" firstAttribute="top" secondItem="DIa-s3-Uk5" secondAttribute="bottom" constant="16" id="aGV-hI-apG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="m40-bW-kY2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dft-mX-4iU" firstAttribute="leading" secondItem="m40-bW-kY2" secondAttribute="leading" constant="16" id="G6w-pn-A79"/>
+                            <constraint firstItem="Dft-mX-4iU" firstAttribute="top" secondItem="m40-bW-kY2" secondAttribute="top" constant="32" id="XRQ-jU-qF5"/>
+                            <constraint firstItem="m40-bW-kY2" firstAttribute="trailing" secondItem="Dft-mX-4iU" secondAttribute="trailing" constant="16" id="pZC-Kv-FJu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9mx-ae-kgf"/>
+                    <connections>
+                        <outlet property="addButton" destination="u79-Wa-4eR" id="mUI-dI-rmS"/>
+                        <outlet property="containerView" destination="Dft-mX-4iU" id="26j-qP-dCA"/>
+                        <outlet property="doneButton" destination="fOR-z1-8g2" id="qxK-Vy-2dX"/>
+                        <outlet property="mealInputTextField" destination="V0n-EI-Xst" id="Xns-QA-ft3"/>
+                        <outlet property="titleLabel" destination="DIa-s3-Uk5" id="EvD-Es-HZu"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="463.768115942029" y="-113.16964285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

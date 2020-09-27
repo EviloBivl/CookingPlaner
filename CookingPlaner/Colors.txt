@@ -1,0 +1,2 @@
+buttonColor: 0120232
+color2: ffaabb

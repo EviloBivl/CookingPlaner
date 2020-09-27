@@ -1,0 +1,13 @@
+ib:
+  inputs: .
+  outputs:
+    - templateName: scenes-swift4
+      output: Storyboard Scenes.swift
+    - templateName: segues-swift4
+      output: Storyboard Segues.swift
+
+colors:
+  inputs: Colors.txt
+  outputs:
+    templateName: swift4
+    output: Colors.swift

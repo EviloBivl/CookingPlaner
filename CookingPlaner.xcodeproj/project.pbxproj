@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F6D33E3B6C32D957AABCD1 /* Pods_CookingPlaner_CookingPlanerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EDA157D83BB7C82E09052A /* Pods_CookingPlaner_CookingPlanerUITests.framework */; };
+		7F4480324C1EDC05B8540AA1 /* Pods_CookingPlaner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842D5CACB82FC6F6064418B4 /* Pods_CookingPlaner.framework */; };
+		8C4C8280251FC09F00D73D51 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 8C4C827F251FC09F00D73D51 /* swiftgen.yml */; };
+		8C4C8296251FCA2100D73D51 /* OnboardingAddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4C8295251FCA2100D73D51 /* OnboardingAddMealViewController.swift */; };
+		8C4C829E251FCA3300D73D51 /* OnboardingWelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4C829D251FCA3300D73D51 /* OnboardingWelcomeScreenViewController.swift */; };
+		8C4C82A5251FCB4700D73D51 /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4C82A4251FCB4700D73D51 /* FilledButton.swift */; };
+		8C4C82AA251FCBBD00D73D51 /* ButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4C82A9251FCBBD00D73D51 /* ButtonConfig.swift */; };
+		8C4C82B2251FCC7D00D73D51 /* InvertedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4C82B1251FCC7D00D73D51 /* InvertedButton.swift */; };
+		8C4C82C4251FD2AD00D73D51 /* MealPlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4C82C3251FD2AD00D73D51 /* MealPlanTableViewController.swift */; };
+		8C80F3F2251FBE7B00FB936F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80F3F1251FBE7B00FB936F /* AppDelegate.swift */; };
+		8C80F3F4251FBE7B00FB936F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80F3F3251FBE7B00FB936F /* SceneDelegate.swift */; };
+		8C80F3F9251FBE7B00FB936F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C80F3F7251FBE7B00FB936F /* Main.storyboard */; };
+		8C80F3FB251FBE7C00FB936F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C80F3FA251FBE7C00FB936F /* Assets.xcassets */; };
+		8C80F3FE251FBE7C00FB936F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C80F3FC251FBE7C00FB936F /* LaunchScreen.storyboard */; };
+		8C80F409251FBE7C00FB936F /* CookingPlanerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80F408251FBE7C00FB936F /* CookingPlanerTests.swift */; };
+		8C80F414251FBE7C00FB936F /* CookingPlanerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80F413251FBE7C00FB936F /* CookingPlanerUITests.swift */; };
+		8CD08D972521162D009629FB /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8CD08D962521162D009629FB /* Colors.txt */; };
+		8CD08D9C25211730009629FB /* OnboardingWelcomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD08D9B25211730009629FB /* OnboardingWelcomeScreen.storyboard */; };
+		8CD08DA12521173E009629FB /* OnboardingAddMeal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD08DA02521173E009629FB /* OnboardingAddMeal.storyboard */; };
+		8CD08DA625211745009629FB /* MealPlanTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD08DA525211745009629FB /* MealPlanTableViewController.storyboard */; };
+		8CD08DAE252117F3009629FB /* Storyboard Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DAD252117F3009629FB /* Storyboard Scenes.swift */; };
+		8CD08DBE25211CB4009629FB /* Storyboard Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DBD25211CB4009629FB /* Storyboard Segues.swift */; };
+		8CD08DC325211CB9009629FB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DC225211CB9009629FB /* Colors.swift */; };
+		EEB8BD8EC5F7C89EA0FD2A83 /* Pods_CookingPlanerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052E04B87C9A50AA49359183 /* Pods_CookingPlanerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C80F405251FBE7C00FB936F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C80F3E6251FBE7B00FB936F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C80F3ED251FBE7B00FB936F;
+			remoteInfo = CookingPlaner;
+		};
+		8C80F410251FBE7C00FB936F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C80F3E6251FBE7B00FB936F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C80F3ED251FBE7B00FB936F;
+			remoteInfo = CookingPlaner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052E04B87C9A50AA49359183 /* Pods_CookingPlanerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookingPlanerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0103A65606D0ED21BAAD74 /* Pods-CookingPlanerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingPlanerTests.release.xcconfig"; path = "Target Support Files/Pods-CookingPlanerTests/Pods-CookingPlanerTests.release.xcconfig"; sourceTree = "<group>"; };
+		48F0CB6660E5164622CD5A82 /* Pods-CookingPlanerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingPlanerTests.debug.xcconfig"; path = "Target Support Files/Pods-CookingPlanerTests/Pods-CookingPlanerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3CB5A809C02530DD25B2AD /* Pods-CookingPlaner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingPlaner.release.xcconfig"; path = "Target Support Files/Pods-CookingPlaner/Pods-CookingPlaner.release.xcconfig"; sourceTree = "<group>"; };
+		842D5CACB82FC6F6064418B4 /* Pods_CookingPlaner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookingPlaner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4C827F251FC09F00D73D51 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		8C4C8295251FCA2100D73D51 /* OnboardingAddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingAddMealViewController.swift; sourceTree = "<group>"; };
+		8C4C829D251FCA3300D73D51 /* OnboardingWelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		8C4C82A4251FCB4700D73D51 /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
+		8C4C82A9251FCBBD00D73D51 /* ButtonConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConfig.swift; sourceTree = "<group>"; };
+		8C4C82B1251FCC7D00D73D51 /* InvertedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedButton.swift; sourceTree = "<group>"; };
+		8C4C82C3251FD2AD00D73D51 /* MealPlanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanTableViewController.swift; sourceTree = "<group>"; };
+		8C80F3EE251FBE7B00FB936F /* CookingPlaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingPlaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C80F3F1251FBE7B00FB936F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C80F3F3251FBE7B00FB936F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C80F3F8251FBE7B00FB936F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C80F3FA251FBE7C00FB936F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C80F3FD251FBE7C00FB936F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C80F3FF251FBE7C00FB936F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C80F404251FBE7C00FB936F /* CookingPlanerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingPlanerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C80F408251FBE7C00FB936F /* CookingPlanerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingPlanerTests.swift; sourceTree = "<group>"; };
+		8C80F40A251FBE7C00FB936F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C80F40F251FBE7C00FB936F /* CookingPlanerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingPlanerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C80F413251FBE7C00FB936F /* CookingPlanerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingPlanerUITests.swift; sourceTree = "<group>"; };
+		8C80F415251FBE7C00FB936F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD08D962521162D009629FB /* Colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
+		8CD08D9B25211730009629FB /* OnboardingWelcomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingWelcomeScreen.storyboard; sourceTree = "<group>"; };
+		8CD08DA02521173E009629FB /* OnboardingAddMeal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingAddMeal.storyboard; sourceTree = "<group>"; };
+		8CD08DA525211745009629FB /* MealPlanTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MealPlanTableViewController.storyboard; sourceTree = "<group>"; };
+		8CD08DAD252117F3009629FB /* Storyboard Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard Scenes.swift"; sourceTree = "<group>"; };
+		8CD08DBD25211CB4009629FB /* Storyboard Segues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard Segues.swift"; sourceTree = "<group>"; };
+		8CD08DC225211CB9009629FB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		94544C64001A7157137D6E5D /* Pods-CookingPlaner-CookingPlanerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingPlaner-CookingPlanerUITests.release.xcconfig"; path = "Target Support Files/Pods-CookingPlaner-CookingPlanerUITests/Pods-CookingPlaner-CookingPlanerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C7B39356209B281D692B635 /* Pods-CookingPlaner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingPlaner.debug.xcconfig"; path = "Target Support Files/Pods-CookingPlaner/Pods-CookingPlaner.debug.xcconfig"; sourceTree = "<group>"; };
+		B2EDA157D83BB7C82E09052A /* Pods_CookingPlaner_CookingPlanerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookingPlaner_CookingPlanerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC224B16C67D685FD0BBCFD /* Pods-CookingPlaner-CookingPlanerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookingPlaner-CookingPlanerUITests.debug.xcconfig"; path = "Target Support Files/Pods-CookingPlaner-CookingPlanerUITests/Pods-CookingPlaner-CookingPlanerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C80F3EB251FBE7B00FB936F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4480324C1EDC05B8540AA1 /* Pods_CookingPlaner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80F401251FBE7C00FB936F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB8BD8EC5F7C89EA0FD2A83 /* Pods_CookingPlanerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80F40C251FBE7C00FB936F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F6D33E3B6C32D957AABCD1 /* Pods_CookingPlaner_CookingPlanerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4C8292251FC9D100D73D51 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8C4C8293251FC9E500D73D51 /* WelcomeScreen */,
+				8C4C8294251FC9EF00D73D51 /* AddMeals */,
+				8C4C82C2251FD29200D73D51 /* MealPlan */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8C4C8293251FC9E500D73D51 /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8C4C829D251FCA3300D73D51 /* OnboardingWelcomeScreenViewController.swift */,
+				8CD08D9B25211730009629FB /* OnboardingWelcomeScreen.storyboard */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		8C4C8294251FC9EF00D73D51 /* AddMeals */ = {
+			isa = PBXGroup;
+			children = (
+				8C4C8295251FCA2100D73D51 /* OnboardingAddMealViewController.swift */,
+				8CD08DA02521173E009629FB /* OnboardingAddMeal.storyboard */,
+			);
+			path = AddMeals;
+			sourceTree = "<group>";
+		};
+		8C4C82A2251FCB3800D73D51 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				8C4C82A3251FCB4000D73D51 /* Button */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		8C4C82A3251FCB4000D73D51 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				8C4C82A4251FCB4700D73D51 /* FilledButton.swift */,
+				8C4C82B1251FCC7D00D73D51 /* InvertedButton.swift */,
+				8C4C82A9251FCBBD00D73D51 /* ButtonConfig.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		8C4C82C2251FD29200D73D51 /* MealPlan */ = {
+			isa = PBXGroup;
+			children = (
+				8C4C82C3251FD2AD00D73D51 /* MealPlanTableViewController.swift */,
+				8CD08DA525211745009629FB /* MealPlanTableViewController.storyboard */,
+			);
+			path = MealPlan;
+			sourceTree = "<group>";
+		};
+		8C80F3E5251FBE7B00FB936F = {
+			isa = PBXGroup;
+			children = (
+				8C80F3F0251FBE7B00FB936F /* CookingPlaner */,
+				8C80F407251FBE7C00FB936F /* CookingPlanerTests */,
+				8C80F412251FBE7C00FB936F /* CookingPlanerUITests */,
+				8C80F3EF251FBE7B00FB936F /* Products */,
+				C5EBE5814CB54A783B696039 /* Pods */,
+				DC2711FC6718D36D2E329A98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C80F3EF251FBE7B00FB936F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C80F3EE251FBE7B00FB936F /* CookingPlaner.app */,
+				8C80F404251FBE7C00FB936F /* CookingPlanerTests.xctest */,
+				8C80F40F251FBE7C00FB936F /* CookingPlanerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C80F3F0251FBE7B00FB936F /* CookingPlaner */ = {
+			isa = PBXGroup;
+			children = (
+				8CD08DB2252117FA009629FB /* Build */,
+				8C4C82A2251FCB3800D73D51 /* CustomViews */,
+				8C4C8292251FC9D100D73D51 /* Onboarding */,
+				8C80F3F1251FBE7B00FB936F /* AppDelegate.swift */,
+				8C80F3F3251FBE7B00FB936F /* SceneDelegate.swift */,
+				8C80F3F7251FBE7B00FB936F /* Main.storyboard */,
+				8C80F3FA251FBE7C00FB936F /* Assets.xcassets */,
+				8C80F3FC251FBE7C00FB936F /* LaunchScreen.storyboard */,
+				8C4C827F251FC09F00D73D51 /* swiftgen.yml */,
+				8CD08DAD252117F3009629FB /* Storyboard Scenes.swift */,
+				8CD08DBD25211CB4009629FB /* Storyboard Segues.swift */,
+				8CD08D962521162D009629FB /* Colors.txt */,
+				8CD08DC225211CB9009629FB /* Colors.swift */,
+				8C80F3FF251FBE7C00FB936F /* Info.plist */,
+			);
+			path = CookingPlaner;
+			sourceTree = "<group>";
+		};
+		8C80F407251FBE7C00FB936F /* CookingPlanerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C80F408251FBE7C00FB936F /* CookingPlanerTests.swift */,
+				8C80F40A251FBE7C00FB936F /* Info.plist */,
+			);
+			path = CookingPlanerTests;
+			sourceTree = "<group>";
+		};
+		8C80F412251FBE7C00FB936F /* CookingPlanerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C80F413251FBE7C00FB936F /* CookingPlanerUITests.swift */,
+				8C80F415251FBE7C00FB936F /* Info.plist */,
+			);
+			path = CookingPlanerUITests;
+			sourceTree = "<group>";
+		};
+		8CD08DB2252117FA009629FB /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				8CD08DB32521180E009629FB /* SwiftGen */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		8CD08DB32521180E009629FB /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		C5EBE5814CB54A783B696039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C7B39356209B281D692B635 /* Pods-CookingPlaner.debug.xcconfig */,
+				7B3CB5A809C02530DD25B2AD /* Pods-CookingPlaner.release.xcconfig */,
+				FEC224B16C67D685FD0BBCFD /* Pods-CookingPlaner-CookingPlanerUITests.debug.xcconfig */,
+				94544C64001A7157137D6E5D /* Pods-CookingPlaner-CookingPlanerUITests.release.xcconfig */,
+				48F0CB6660E5164622CD5A82 /* Pods-CookingPlanerTests.debug.xcconfig */,
+				2B0103A65606D0ED21BAAD74 /* Pods-CookingPlanerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC2711FC6718D36D2E329A98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842D5CACB82FC6F6064418B4 /* Pods_CookingPlaner.framework */,
+				B2EDA157D83BB7C82E09052A /* Pods_CookingPlaner_CookingPlanerUITests.framework */,
+				052E04B87C9A50AA49359183 /* Pods_CookingPlanerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C80F3ED251FBE7B00FB936F /* CookingPlaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C80F418251FBE7C00FB936F /* Build configuration list for PBXNativeTarget "CookingPlaner" */;
+			buildPhases = (
+				D562EDD4140B406E1F0CE9F7 /* [CP] Check Pods Manifest.lock */,
+				8C4C827E251FBF7300D73D51 /* ShellScript */,
+				8C80F3EA251FBE7B00FB936F /* Sources */,
+				8C80F3EB251FBE7B00FB936F /* Frameworks */,
+				8C80F3EC251FBE7B00FB936F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookingPlaner;
+			productName = CookingPlaner;
+			productReference = 8C80F3EE251FBE7B00FB936F /* CookingPlaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C80F403251FBE7C00FB936F /* CookingPlanerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C80F41B251FBE7C00FB936F /* Build configuration list for PBXNativeTarget "CookingPlanerTests" */;
+			buildPhases = (
+				D706950FB5003E5C2639AB74 /* [CP] Check Pods Manifest.lock */,
+				8C80F400251FBE7C00FB936F /* Sources */,
+				8C80F401251FBE7C00FB936F /* Frameworks */,
+				8C80F402251FBE7C00FB936F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C80F406251FBE7C00FB936F /* PBXTargetDependency */,
+			);
+			name = CookingPlanerTests;
+			productName = CookingPlanerTests;
+			productReference = 8C80F404251FBE7C00FB936F /* CookingPlanerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C80F40E251FBE7C00FB936F /* CookingPlanerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C80F41E251FBE7C00FB936F /* Build configuration list for PBXNativeTarget "CookingPlanerUITests" */;
+			buildPhases = (
+				75C58DBE4F4B26C331EF353D /* [CP] Check Pods Manifest.lock */,
+				8C80F40B251FBE7C00FB936F /* Sources */,
+				8C80F40C251FBE7C00FB936F /* Frameworks */,
+				8C80F40D251FBE7C00FB936F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C80F411251FBE7C00FB936F /* PBXTargetDependency */,
+			);
+			name = CookingPlanerUITests;
+			productName = CookingPlanerUITests;
+			productReference = 8C80F40F251FBE7C00FB936F /* CookingPlanerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C80F3E6251FBE7B00FB936F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8C80F3ED251FBE7B00FB936F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					8C80F403251FBE7C00FB936F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 8C80F3ED251FBE7B00FB936F;
+					};
+					8C80F40E251FBE7C00FB936F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 8C80F3ED251FBE7B00FB936F;
+					};
+				};
+			};
+			buildConfigurationList = 8C80F3E9251FBE7B00FB936F /* Build configuration list for PBXProject "CookingPlaner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C80F3E5251FBE7B00FB936F;
+			productRefGroup = 8C80F3EF251FBE7B00FB936F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C80F3ED251FBE7B00FB936F /* CookingPlaner */,
+				8C80F403251FBE7C00FB936F /* CookingPlanerTests */,
+				8C80F40E251FBE7C00FB936F /* CookingPlanerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C80F3EC251FBE7B00FB936F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80F3FE251FBE7C00FB936F /* LaunchScreen.storyboard in Resources */,
+				8C80F3FB251FBE7C00FB936F /* Assets.xcassets in Resources */,
+				8CD08D9C25211730009629FB /* OnboardingWelcomeScreen.storyboard in Resources */,
+				8C80F3F9251FBE7B00FB936F /* Main.storyboard in Resources */,
+				8CD08DA12521173E009629FB /* OnboardingAddMeal.storyboard in Resources */,
+				8CD08D972521162D009629FB /* Colors.txt in Resources */,
+				8CD08DA625211745009629FB /* MealPlanTableViewController.storyboard in Resources */,
+				8C4C8280251FC09F00D73D51 /* swiftgen.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80F402251FBE7C00FB936F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80F40D251FBE7C00FB936F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75C58DBE4F4B26C331EF353D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CookingPlaner-CookingPlanerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4C827E251FBF7300D73D51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# SwiftGen\n${PODS_ROOT}/SwiftGen/bin/swiftgen config run --config ${PROJECT_DIR}/CookingPlaner/swiftgen.yml\n";
+		};
+		D562EDD4140B406E1F0CE9F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CookingPlaner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D706950FB5003E5C2639AB74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CookingPlanerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C80F3EA251FBE7B00FB936F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4C82A5251FCB4700D73D51 /* FilledButton.swift in Sources */,
+				8CD08DC325211CB9009629FB /* Colors.swift in Sources */,
+				8C4C829E251FCA3300D73D51 /* OnboardingWelcomeScreenViewController.swift in Sources */,
+				8C80F3F2251FBE7B00FB936F /* AppDelegate.swift in Sources */,
+				8CD08DBE25211CB4009629FB /* Storyboard Segues.swift in Sources */,
+				8C4C82B2251FCC7D00D73D51 /* InvertedButton.swift in Sources */,
+				8C4C8296251FCA2100D73D51 /* OnboardingAddMealViewController.swift in Sources */,
+				8CD08DAE252117F3009629FB /* Storyboard Scenes.swift in Sources */,
+				8C4C82AA251FCBBD00D73D51 /* ButtonConfig.swift in Sources */,
+				8C80F3F4251FBE7B00FB936F /* SceneDelegate.swift in Sources */,
+				8C4C82C4251FD2AD00D73D51 /* MealPlanTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80F400251FBE7C00FB936F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80F409251FBE7C00FB936F /* CookingPlanerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C80F40B251FBE7C00FB936F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80F414251FBE7C00FB936F /* CookingPlanerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C80F406251FBE7C00FB936F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C80F3ED251FBE7B00FB936F /* CookingPlaner */;
+			targetProxy = 8C80F405251FBE7C00FB936F /* PBXContainerItemProxy */;
+		};
+		8C80F411251FBE7C00FB936F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C80F3ED251FBE7B00FB936F /* CookingPlaner */;
+			targetProxy = 8C80F410251FBE7C00FB936F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C80F3F7251FBE7B00FB936F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C80F3F8251FBE7B00FB936F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C80F3FC251FBE7C00FB936F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C80F3FD251FBE7C00FB936F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C80F416251FBE7C00FB936F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C80F417251FBE7C00FB936F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C80F419251FBE7C00FB936F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7B39356209B281D692B635 /* Pods-CookingPlaner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4XFJA86D8;
+				INFOPLIST_FILE = CookingPlaner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.CookingPlaner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C80F41A251FBE7C00FB936F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3CB5A809C02530DD25B2AD /* Pods-CookingPlaner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4XFJA86D8;
+				INFOPLIST_FILE = CookingPlaner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.CookingPlaner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C80F41C251FBE7C00FB936F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F0CB6660E5164622CD5A82 /* Pods-CookingPlanerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4XFJA86D8;
+				INFOPLIST_FILE = CookingPlanerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.CookingPlanerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookingPlaner.app/CookingPlaner";
+			};
+			name = Debug;
+		};
+		8C80F41D251FBE7C00FB936F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0103A65606D0ED21BAAD74 /* Pods-CookingPlanerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4XFJA86D8;
+				INFOPLIST_FILE = CookingPlanerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.CookingPlanerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookingPlaner.app/CookingPlaner";
+			};
+			name = Release;
+		};
+		8C80F41F251FBE7C00FB936F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC224B16C67D685FD0BBCFD /* Pods-CookingPlaner-CookingPlanerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4XFJA86D8;
+				INFOPLIST_FILE = CookingPlanerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.CookingPlanerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CookingPlaner;
+			};
+			name = Debug;
+		};
+		8C80F420251FBE7C00FB936F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94544C64001A7157137D6E5D /* Pods-CookingPlaner-CookingPlanerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4XFJA86D8;
+				INFOPLIST_FILE = CookingPlanerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.CookingPlanerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CookingPlaner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C80F3E9251FBE7B00FB936F /* Build configuration list for PBXProject "CookingPlaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C80F416251FBE7C00FB936F /* Debug */,
+				8C80F417251FBE7C00FB936F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C80F418251FBE7C00FB936F /* Build configuration list for PBXNativeTarget "CookingPlaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C80F419251FBE7C00FB936F /* Debug */,
+				8C80F41A251FBE7C00FB936F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C80F41B251FBE7C00FB936F /* Build configuration list for PBXNativeTarget "CookingPlanerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C80F41C251FBE7C00FB936F /* Debug */,
+				8C80F41D251FBE7C00FB936F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C80F41E251FBE7C00FB936F /* Build configuration list for PBXNativeTarget "CookingPlanerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C80F41F251FBE7C00FB936F /* Debug */,
+				8C80F420251FBE7C00FB936F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C80F3E6251FBE7B00FB936F /* Project object */;
+}
